@@ -1,1 +1,81 @@
-/* страшна очень страшна
+/* страшна очень страшна*/
+@font-face {
+    font-family: "GentiumBookBold";
+    src: url("../fonts/gentium-book-basic-bold.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: normal; }
+.header-page{
+    background-image: url(../source/Bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 770px;
+    color: #ffffff;
+    
+}
+.main-page-about{
+    background-image: url(../source/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 770px;
+    color: #ffffff;
+}
+.nav{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 109px;
+    display: flex;
+    justify-content: center;
+}
+.into-nav{
+   /* background-color: aquamarine;*/
+    flex-basis:1280px ;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo-nav{
+    flex-basis: 175px;
+   /* background-color: blueviolet;*/
+}
+.logo-img-nav{
+    margin-top: -2px;
+    margin-left: -8px;
+    width: 175px;
+}
+.home-nav{
+margin-left: 220px;
+flex-basis: 82px;
+
+/*background-color: antiquewhite;*/
+text-align: center;
+line-height: 123px;
+}
+.about-nav{
+    margin-left: 70px;
+    flex-basis: 82px;
+    
+    text-align: center;
+    line-height: 123px;
+    }
+.nav-menu__link{
+    color: white;
+    text-decoration: none;
+    font-family:GentiumBookBold;
+    font-size: 1.4em;
+
+}
+.nav-menu__link:hover {
+    content: '';
+    position: relative;
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #c8c5bc; }
+body
+{
+    margin: 0px;
+}
