@@ -152,8 +152,36 @@ body
     background-position: center;
     background-size: cover;
     height: 780px;
-    color: #ffffff; 
+    display: flex;
+    color: #ffffff;
 }
+.reviews-pattern{
+    background-image: url(../source/BgText3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 557px;
+    width: 770px;
+    margin: auto;
+    color: #ffffff;
+}
+/*
+.nav{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 109px;
+    display: flex;
+    justify-content: center;
+}
+.into-nav{
+   /*background-color: aquamarine;*//*
+   flex-basis:1280px ;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+}*/
 .main-page-reservations{
     background-image: url(../source/background3.png);
     background-repeat: no-repeat;
