@@ -9,6 +9,11 @@
         src: url("../fonts/yeseva-one.ttf") format("TrueType");
         font-style: normal;
         font-weight: normal; }
+        @font-face {
+            font-family: "LatoRegular";
+            src: url("../fonts/lato-regular.ttf") format("TrueType");
+            font-style: normal;
+            font-weight: normal; }
 .header-page{
     background-image: url(../source/Bg.png);
     background-repeat: no-repeat;
@@ -160,28 +165,54 @@ body
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 557px;
-    width: 770px;
+    height: 570px;
+    width: 786px;
     margin: auto;
+    text-align: center;
     color: #ffffff;
 }
-/*
-.nav{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
+.reviews-title{
+    font-family: YesevaOne;
+    color: white;
+    font-size: 2.2em;
+    margin-top: 78px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;}
+.reviews-divider{
+    background-image: url(../source/Divider.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 109px;
-    display: flex;
-    justify-content: center;
+    height: 60px;
+    width: 100%;
+    margin: auto;
 }
-.into-nav{
-   /*background-color: aquamarine;*//*
-   flex-basis:1280px ;
-   height: 100%;
-   display: flex;
-   flex-direction: row;
-}*/
+.reviews-text{
+    font-family: GentiumBookBasicBold;
+    color: white;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-left: 75px;
+    margin-right: 75px;
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+}
+.reviews-text::before {
+    content: '\275B\275B';
+    position: absolute;
+    font-family: 'Georgia';
+    font-size: 64px;
+    line-height: 0.8;
+    opacity: 0.8;
+    transform: translateX(-120%); }
+.reviews-end{
+    font-family: LatoRegular;
+    color: white;
+    font-size: 17px;
+    margin-top: 28px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
 .main-page-reservations{
     background-image: url(../source/background3.png);
     background-repeat: no-repeat;
