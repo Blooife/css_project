@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 770px;
+    height: 730px;
     color: #ffffff;
 }
 .nav{
@@ -31,7 +31,7 @@
     justify-content: center;
 }
 .into-nav{
-   /* background-color: aquamarine;*/
+   /*background-color: aquamarine;*/
     flex-basis:1280px ;
     height: 100%;
     display: flex;
@@ -78,4 +78,60 @@ line-height: 123px;
 body
 {
     margin: 0px;
+}
+.about-pattern{
+    background-image: url(../source/pattern.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 730px;
+    color: #ffffff;
+}
+.main-page-ingredients{
+    background-image: url(../source/Bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+    color: #ffffff;
+}
+.main-page-menu{
+    background-image: url(../source/background2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1020px;
+    color: #ffffff; 
+}
+.menu-pattern{
+    background-image: url(../source/pattern2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1020px;
+    color: #ffffff;
+}
+.main-page-reviews{
+    background-image: url(../source/Bg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+    color: #ffffff; 
+}
+.main-page-reservations{
+    background-image: url(../source/background3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 730px;
+    color: #ffffff; 
+}
+.reservations-pattern{
+    background-image: url(../source/pattern3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 730px;
+    color: #ffffff;
 }
