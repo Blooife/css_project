@@ -4,6 +4,11 @@
     src: url("../fonts/gentium-book-basic-bold.ttf") format("TrueType");
     font-style: normal;
     font-weight: normal; }
+    @font-face {
+        font-family: "YesevaOne";
+        src: url("../fonts/yeseva-one.ttf") format("TrueType");
+        font-style: normal;
+        font-weight: normal; }
 .header-page{
     background-image: url(../source/Bg.png);
     background-repeat: no-repeat;
@@ -41,10 +46,17 @@
     flex-basis: 175px;
    /* background-color: blueviolet;*/
 }
-.logo-img-nav{
+/*.logo-img-nav{
     margin-top: -2px;
     margin-left: -8px;
     width: 175px;
+}*/
+.logo-p-nav{
+    font-family: YesevaOne;
+    color: white;
+    font-size: 2.2em;
+    margin-top: 42px;
+    letter-spacing: 2px;
 }
 .home-nav{
 margin-left: 220px;
@@ -55,12 +67,35 @@ text-align: center;
 line-height: 123px;
 }
 .about-nav{
-    margin-left: 70px;
+    margin-left: 28px;
     flex-basis: 82px;
-    
     text-align: center;
     line-height: 123px;
     }
+.ingredients-nav{
+    flex-basis: 140px;
+    text-align: center;
+    line-height: 123px;
+    margin-left: 18px;
+}
+.menu-nav{
+    flex-basis: 82px;
+    text-align: center;
+    line-height: 123px;
+    margin-left: 19px;
+}
+.reviews-nav{
+    flex-basis: 110px;
+    text-align: center;
+    line-height: 123px;
+    margin-left: 25px;
+}
+.reservations-nav{
+    flex-basis: 150px;
+    text-align: center;
+    line-height: 123px;
+    margin-left: 18px;
+}
 .nav-menu__link{
     color: white;
     text-decoration: none;
