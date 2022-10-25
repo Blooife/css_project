@@ -20,8 +20,10 @@
     background-position: center;
     background-size: cover;
     height: 109px;
+    width: 1600px;
     display: flex;
     justify-content: center;
+    z-index: 100;
     }
 .into-nav{
     /*background-color: aquamarine;*/
@@ -98,9 +100,10 @@ body
 }
 .header-page{
     position: fixed;
-    width: 1600px;
-    height: 110px;
-    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
  }            
 .main-page-home{
     margin-left: auto;
