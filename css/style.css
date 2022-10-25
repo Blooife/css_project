@@ -153,7 +153,7 @@ body
     font-weight: normal;
     font-family: YesevaOne;
     color: #cc9900; }
-    
+
 .about_title::before {
         content: '';
         position: absolute;
@@ -169,6 +169,7 @@ body
      width: 100%;    
      opacity: 0.8;    
      line-height: 1.5; 
+     letter-spacing: -0.5px;
      color:rgb(10, 10, 10);}    
 
      
@@ -176,7 +177,7 @@ body
 .about_cook {
         margin-top: 32px;
         margin-bottom: 15px;
-        margin-left: 65px; }
+        margin-left: 70px; }
     
 
 
