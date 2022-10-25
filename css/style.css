@@ -100,6 +100,7 @@ body
 }
 .header-page{
     position: fixed;
+    z-index: 2;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -146,14 +147,13 @@ body
     align-items: center; }
 
 .about_title {
-    position: relative;
+    position: relative; 
     margin: 0;
     margin-bottom: 50px;
     font-size: 36px;
     font-weight: normal;
     font-family: YesevaOne;
     color: #cc9900; }
-
 .about_title::before {
         content: '';
         position: absolute;
@@ -343,4 +343,8 @@ body
     height: 710px;
     width: 1600px;
     color: #ffffff;
+}
+.main-page{
+    position: relative;
+    z-index: 1;
 }
