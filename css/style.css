@@ -197,22 +197,21 @@ body
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 570px;
-    flex-basis: 585px;
+    height: 557px;
+    flex-basis: 570px;
     margin: auto;
     margin-left: 51%;
     display: flex;
     flex-direction:column;
-    color: #ffffff;
-}
+    color: #ffffff;}
 .ingredients-title{
     text-align:center;
     font-family: YesevaOne;
     color: white;
     font-size: 2.2em;
-    margin-top: 78px;
+    margin-top: 75px;
     margin-bottom: 0px;
-    letter-spacing: 1px;}
+    letter-spacing: 0.8px;}
 .ingredients-divider{
     background-image: url(../source/Divider.png);
     background-repeat: no-repeat;
@@ -222,17 +221,17 @@ body
     width: 100%;
     margin: auto;
     margin-top: 0px;
-    margin-bottom: 0px;
-}
+    margin-bottom: 0px;}
 .ingredients-text{
     text-align:justify;
     text-align-last:center;
     font-family: LatoRegular;
     color: white;
     font-size: 15px;
-    margin-top: 4px;
-    margin-left: 14%;    
-    margin-right: 14%;
+    margin-top: 0px;
+    margin-left: 13%;    
+    margin-right: 13%;
+    margin-bottom: 0;
     letter-spacing: 0.5px;
     line-height: 1.7;
 }
@@ -240,7 +239,6 @@ body
     width: 67%;
     height: 110px;
     margin:auto;
-    margin-top: 11%;
     display: block;
     text-align-last: justify;
 }
@@ -278,8 +276,8 @@ body
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 570px;
-    width: 786px;
+    height: 560px;
+    width: 770px;
     margin: auto;
     text-align: center;
     color: #ffffff;
@@ -303,7 +301,7 @@ body
 .reviews-text{
     font-family: GentiumBookBasicBold;
     color: white;
-    font-size: 26px;
+    font-size: 25px;
     margin-top: 0px;
     margin-left: 75px;
     margin-right: 75px;
