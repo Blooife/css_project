@@ -120,13 +120,60 @@ body
     margin: 0px;
 }
 .about-pattern{
-    background-image: url(../source/pattern.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 730px;
+    background-image: url(../source/dish.png),url(../source/pattern.png);
+    background-repeat: no-repeat,repeat;
+    background-position:  right 15% bottom 20%, center;
+    background-size: 47%, cover;
+    height: 730px;    
+    box-sizing: border-box;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 40px;
     color: #ffffff;
 }
+.about_info {
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;   
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    align-items: center; }
+
+.about_title {
+    position: relative;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: YesevaOne;
+    color: #cc9900; }
+.about_title::before {
+        content: '';
+        position: absolute;
+        width: 250px;
+        height: 80px;
+        background: url(..//source/gold_divider.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        left: 15%;        
+        bottom: -210%; }
+.about_text {
+    font-family: LatoRegular;
+     width: 100%;    
+     opacity: 0.9;    
+     line-height: 1.5; 
+     color:rgb(10, 10, 10);}    
+
+     
+      
+.about_cook {
+        margin-top: 32px;
+        margin-bottom: 15px;
+        margin-left: 65px; }
+    
+
+
 .main-page-ingredients{
     background-image: url(../source/Bg2.png);
     background-repeat: no-repeat;
