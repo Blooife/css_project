@@ -14,24 +14,8 @@
             src: url("../fonts/lato-regular.ttf") format("TrueType");
             font-style: normal;
             font-weight: normal; }
-.header-page{
-    background-image: url(../source/Bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 770px;
-    color: #ffffff;
-    
-}
-.main-page-about{
-    background-image: url(../source/background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 730px;
-    color: #ffffff;
-}
 .nav{
+    align:center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
     background-repeat: no-repeat;
     background-position: center;
@@ -39,9 +23,9 @@
     height: 109px;
     display: flex;
     justify-content: center;
-}
+    }
 .into-nav{
-   /*background-color: aquamarine;*/
+    /*background-color: aquamarine;*/
     flex-basis:1280px ;
     height: 100%;
     display: flex;
@@ -49,13 +33,9 @@
 }
 .logo-nav{
     flex-basis: 175px;
-   /* background-color: blueviolet;*/
+               /* background-color: blueviolet;*/
 }
-/*.logo-img-nav{
-    margin-top: -2px;
-    margin-left: -8px;
-    width: 175px;
-}*/
+
 .logo-p-nav{
     font-family: YesevaOne;
     color: white;
@@ -64,19 +44,18 @@
     letter-spacing: 2px;
 }
 .home-nav{
-margin-left: 220px;
-flex-basis: 82px;
-
-/*background-color: antiquewhite;*/
-text-align: center;
-line-height: 123px;
+    margin-left: 220px;
+    flex-basis: 82px;           
+    /*background-color: antiquewhite;*/
+    text-align: center;
+    line-height: 123px;
 }
 .about-nav{
     margin-left: 28px;
     flex-basis: 82px;
     text-align: center;
     line-height: 123px;
-    }
+}
 .ingredients-nav{
     flex-basis: 140px;
     text-align: center;
@@ -106,7 +85,6 @@ line-height: 123px;
     text-decoration: none;
     font-family:GentiumBookBold;
     font-size: 1.4em;
-
 }
 .nav-menu__link:hover {
     content: '';
@@ -119,6 +97,31 @@ body
 {
     margin: 0px;
 }
+.header-page{
+    position: fixed;
+    width: 1600px;
+    height: 110px;
+    color: #ffffff;
+ }            
+.main-page-home{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../source/Bg.png);
+    width: 1600px;
+    background-position: center;
+    height: 750px;
+    color: #ffffff;
+}
+.main-page-about{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../source/background.png);
+    background-position: center;
+    width: 1600px;
+    height: 710px;
+    color: #ffffff;
+}
+
 .about-pattern{
     background-image: url(../source/dish.png),url(../source/pattern.png);
     background-repeat: no-repeat,repeat;
@@ -175,11 +178,12 @@ body
 
 
 .main-page-ingredients{
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../source/Bg2.png);
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 780px;
+    width: 1600px;
+    height: 760px;
     display: flex;
     color: #ffffff;
 }
@@ -236,27 +240,31 @@ body
     text-align-last: justify;
 }
 .main-page-menu{
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../source/background2.png);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 1020px;
+    width: 1600px;
+    height: 990px;
     color: #ffffff; 
 }
 .menu-pattern{
     background-image: url(../source/pattern2.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 1020px;
+    height: 100%;
+    width: 100%;
     color: #ffffff;
 }
 .main-page-reviews{
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../source/Bg3.png);
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 780px;
+    background-size:cover ;
+    width: 1600px;
+    height: 760px;
     display: flex;
     color: #ffffff;
 }
@@ -314,18 +322,20 @@ body
     line-height: 1.8;
 }
 .main-page-reservations{
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../source/background3.png);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 730px;
+    height: 710px;
+    width: 1600px;
     color: #ffffff; 
 }
 .reservations-pattern{
     background-image: url(../source/pattern3.png);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 730px;
+    height: 710px;
+    width: 1600px;
     color: #ffffff;
 }
