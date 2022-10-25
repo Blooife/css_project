@@ -305,6 +305,41 @@ body
     height: 100%;
     width: 100%;
     color: #ffffff;
+    display: flex;}
+.menu-back{
+    height: 800px;
+    width: 1170px;
+    /*background-color: black;*/
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;}
+.menu-column{
+    height: 100%;
+    width: 570px;
+    background-color:aqua;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;}
+.menu-category{
+    background-color:rgb(29, 91, 91); 
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.menu-cathegory-title{
+    font-family: YesevaOne;
+    text-align: center;
+    color: rgb(204, 153, 0);
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.menu-cathegory-divider{
+    margin: auto;
 }
 .main-page-reviews{
     margin-left: auto;
