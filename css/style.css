@@ -133,7 +133,60 @@ body
     background-position: center;
     background-size: cover;
     height: 780px;
+    display: flex;
     color: #ffffff;
+}
+.ingredients-pattern{
+    background-image: url(../source/BgText1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 570px;
+    flex-basis: 585px;
+    margin: auto;
+    margin-left: 51%;
+    display: flex;
+    flex-direction:column;
+    color: #ffffff;
+}
+.ingredients-title{
+    text-align:center;
+    font-family: YesevaOne;
+    color: white;
+    font-size: 2.2em;
+    margin-top: 78px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;}
+.ingredients-divider{
+    background-image: url(../source/Divider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.ingredients-text{
+    text-align:justify;
+    text-align-last:center;
+    font-family: LatoRegular;
+    color: white;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-left: 14%;    
+    margin-right: 14%;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
+.ingredients-image{
+    width: 67%;
+    height: 110px;
+    margin:auto;
+    margin-top: 11%;
+    display: block;
+    text-align-last: justify;
 }
 .main-page-menu{
     background-image: url(../source/background2.png);
