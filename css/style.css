@@ -134,6 +134,32 @@ body
     background-position: center;
     height: 750px;
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text-home{
+    margin-top: 170px;
+    width: 970px;
+    height: 250px;
+    text-align: center;
+}
+.intro{
+    font-family: YesevaOne;
+    color: f0efef;
+    font-size: 5.5em;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.divider-home{
+    margin-top: 15px;
+}
+.buttons-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 78px;
+    width: 570;
 }
 .main-page-about{
     margin-left: auto;
