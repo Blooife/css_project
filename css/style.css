@@ -15,26 +15,26 @@
             font-style: normal;
             font-weight: normal; }
 .nav{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent); */
+    background-image: url(../source/header-grad.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 109px;
+    height: 110px;
     width: 1600px;
     display: flex;
     justify-content: center;
-    z-index: 100;
     }
 .into-nav{
-    /*background-color: aquamarine;*/
+    /* background-color: aquamarine; */
     flex-basis:1280px ;
     height: 100%;
     display: flex;
     flex-direction: row;
 }
 .logo-nav{
-    flex-basis: 175px;
-               /* background-color: blueviolet;*/
+    margin-left: 20px;
+    flex-basis: 164px;
 }
 
 .logo-p-nav{
@@ -42,17 +42,17 @@
     color: white;
     font-size: 2.2em;
     margin-top: 42px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .home-nav{
-    margin-left: 220px;
+    margin-left: 217px;
     flex-basis: 82px;           
     /*background-color: antiquewhite;*/
     text-align: center;
     line-height: 123px;
 }
 .about-nav{
-    margin-left: 28px;
+    margin-left: 23px;
     flex-basis: 82px;
     text-align: center;
     line-height: 123px;
@@ -67,19 +67,20 @@
     flex-basis: 82px;
     text-align: center;
     line-height: 123px;
-    margin-left: 19px;
+    margin-left: 15px;
 }
 .reviews-nav{
     flex-basis: 110px;
     text-align: center;
     line-height: 123px;
-    margin-left: 25px;
+    margin-left: 18px;
 }
 .reservations-nav{
+    /* background-color: blueviolet; */
     flex-basis: 150px;
     text-align: center;
     line-height: 123px;
-    margin-left: 18px;
+    margin-left: 19px;
 }
 .nav-menu__link{
     color: white;
@@ -94,6 +95,25 @@
     height: 3px;
     width: 100%;
     background-color: #c8c5bc; }
+.socials__item{
+    margin-top: 53px;
+    margin-left: 8px;
+}
+.socials__item2{
+    margin-top: 53px;
+    margin-left: 19px;
+}
+.socials__item3{
+    margin-top: 53px;
+    margin-left: 17px;
+}
+.socials-link{
+    text-decoration: none;
+    color: #cc9900;
+}
+.socials-link:hover{
+    color: #ffffff;
+}
 body
 {
     margin: 0px;
