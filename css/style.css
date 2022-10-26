@@ -477,19 +477,29 @@ body
 
 
 .reservations_info{
-    flex-direction: column;    
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: nowrap;   
     background-color: rgba(70, 194, 90, 0.4);
     width: 450px;
     margin: 100px;
     margin-left: -40px;
     /*padding-right: 500px;*/    
-    /*display: flex;
-    flex-direction: column;*/
+    /*
+    flex-direction: column;
+    align-items: center;    */
     text-align: center; 
-    flex-wrap: nowrap;
-    
+  /*  position: relative;*/
         
     
+}
+
+.reservations_info img{
+   /* position: absolute;*/
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
 }
 .reservations_info h2{
     /*width: 100%;
@@ -500,28 +510,28 @@ body
     position: relative;
     font-family: YesevaOne;
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: -10px;
     font-size: 36px;
     line-height: 0.9;
     font-weight: normal;
     color: #cc9900;
-    text-align: center; }
+    text-align: center; }/*
   .reservations_info h2::after {
     content: '';
     position: absolute;
     width: 300px;
     height: 50px;
     background: url("../source/gold_divider.png");
-    left: 50%;
+    left: 52%;
     transform: translateX(-50%);
-    bottom: -60px; }
+    bottom: -60px; }*/
 
     
 
 .reservations_info p{
     font-family: LatoRegular;
      width: 100%;  
-     margin-bottom: 30px;   
+     margin-bottom: 0px;   
      line-height: 1.5; 
    /*  padding-bottom: 50px;*/
     color: rgb(0, 0, 0);
