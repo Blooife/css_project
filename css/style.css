@@ -174,7 +174,7 @@ body
 .about-pattern{
     background-image: url(../source/dish.png),url(../source/pattern.png);
     background-repeat: no-repeat,repeat;
-    background-position:  right 23% bottom 45%, center;
+    background-position:  right 25% bottom 45%, center;
     background-size: 39%, cover;
     height: 730px;    
     box-sizing: border-box;
@@ -215,7 +215,6 @@ body
      width: 100%;    
      opacity: 0.8;    
      line-height: 1.5; 
-     letter-spacing: -0.5px;
      color:rgb(10, 10, 10);}    
 
      
@@ -305,6 +304,41 @@ body
     height: 100%;
     width: 100%;
     color: #ffffff;
+    display: flex;}
+.menu-back{
+    height: 800px;
+    width: 1170px;
+    /*background-color: black;*/
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;}
+.menu-column{
+    height: 100%;
+    width: 570px;
+    background-color:aqua;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;}
+.menu-category{
+    background-color:rgb(29, 91, 91); 
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.menu-cathegory-title{
+    font-family: YesevaOne;
+    text-align: center;
+    color: rgb(204, 153, 0);
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.menu-cathegory-divider{
+    margin: auto;
 }
 .main-page-reviews{
     margin-left: auto;
@@ -384,10 +418,78 @@ body
     background-image: url(../source/pattern3.png);
     background-position: center;
     background-size: cover;
+    padding: 100px;
+    padding-left: 200px;
     height: 710px;
-    width: 1600px;
-    color: #ffffff;
+    width: 1600px;       
+    display: flex;    
+    color: #ffffff; 
+    
 }
+
+.imgs{
+    display: flex;
+    
+    width: 50%;
+    min-width: 570px;
+    margin: 0 15px;
+}
+
+
+.reservations_info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    padding-right: 500px;
+    height: 600px;
+    width: 500px;
+    /*display: flex;
+    flex-direction: column;*/
+    text-align: center;
+    
+    
+        
+    
+}
+.reservations_info h2{
+    /*width: 100%;
+    
+    font-size: 36px;
+    font-weight: normal;      
+    color: #cc9900;*/
+    position: relative;
+    font-family: YesevaOne;
+   margin: 0;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 0.9;
+  font-weight: normal;
+  color: #cc9900;
+  text-align: center; }
+  .reservations_info h2::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background: url("../source/gold_divider.png");
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px; }
+
+    
+
+.reservations_info p{
+    font-family: LatoRegular;
+     width: 100%;  
+     margin-bottom: 30px;   
+     line-height: 1.5; 
+   /*  padding-bottom: 50px;*/
+    color: rgb(87,87,87);
+}
+
+
+
 .main-page{
     position: relative;
     z-index: 1;
