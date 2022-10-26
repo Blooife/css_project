@@ -455,37 +455,38 @@ body
     
 }
 
-.reservations-wrapper{
+.reservations_wrapper{
     height: 710px;
     width: 1600px;   
-    color: rgba(60,60,60,0.9);    
+    background-color: rgba(167, 0, 0,0.3);       
+    display: flex;    
+    flex-direction: row;  
+    align-content: space-between;
+   /* padding: 100px;
+    padding-left: 200px; */
     
-    display: flex;  
-    padding: 100px;
-    padding-left: 200px; 
 }
 
-.imgs{
-    display: flex;
-    
-    width: 50%;
-    min-width: 570px;
-    margin: 0 15px;
+.imgs{       
+    background-color: #cc9900;
+    min-width: 600px;
+    height: 507px;
+    margin: 100px;
+    margin-left: 215px;
 }
 
 
 .reservations_info{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    
-    padding-right: 500px;
-    height: 600px;
-    width: 500px;
+    flex-direction: column;    
+    background-color: rgba(70, 194, 90, 0.4);
+    width: 450px;
+    margin: 100px;
+    margin-left: -40px;
+    /*padding-right: 500px;*/    
     /*display: flex;
     flex-direction: column;*/
-    text-align: center;
-    
+    text-align: center; 
+    flex-wrap: nowrap;
     
         
     
@@ -498,13 +499,13 @@ body
     color: #cc9900;*/
     position: relative;
     font-family: YesevaOne;
-   margin: 0;
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 0.9;
-  font-weight: normal;
-  color: #cc9900;
-  text-align: center; }
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 0.9;
+    font-weight: normal;
+    color: #cc9900;
+    text-align: center; }
   .reservations_info h2::after {
     content: '';
     position: absolute;
@@ -523,7 +524,7 @@ body
      margin-bottom: 30px;   
      line-height: 1.5; 
    /*  padding-bottom: 50px;*/
-    color: rgb(87,87,87);
+    color: rgb(0, 0, 0);
 }
 
 
