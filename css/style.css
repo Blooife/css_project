@@ -382,14 +382,22 @@ body
 .reservations-pattern{
     background-image: url(../source/pattern3.png);
     background-position: center;
-    background-size: cover;
-    padding: 100px;
-    padding-left: 200px;
+    background-size: cover;    
     height: 710px;
     width: 1600px;       
     display: flex;    
     color: #ffffff; 
     
+}
+
+.reservations-wrapper{
+    height: 710px;
+    width: 1600px;   
+    color: rgba(60,60,60,0.9);    
+    
+    display: flex;  
+    padding: 100px;
+    padding-left: 200px; 
 }
 
 .imgs{
