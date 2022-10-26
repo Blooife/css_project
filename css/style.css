@@ -336,7 +336,7 @@ body
     color: #ffffff;
     display: flex;}
 .menu-back{
-    height: 840px;
+    height: 815px;
     width: 1170px;
     /*background-color: black;*/
     margin:auto;
@@ -348,16 +348,19 @@ body
 .menu-column{
     height: 100%;
     width: 570px;
-    background-color:aqua;
+    /*background-color:aqua;*/
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    justify-content: space-between;}
 .menu-category{
     width: 455px;
-    background-color:rgb(29, 91, 91); 
+    height: min-content;
+    /*background-color:rgb(29, 91, 91); */
     display:flex;
     margin:auto;
     margin-top: 0;
+    margin-bottom: 0;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -377,8 +380,8 @@ body
 .menu-dish{
     height: 85px; 
     padding-left: 12px;
-    margin-right: 12px;
-    margin-top: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
 }
 .dish-title{
     height: 40px;
