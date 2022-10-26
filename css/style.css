@@ -282,6 +282,7 @@ body
 .ingredients-title{
     text-align:center;
     font-family: YesevaOne;
+    font-weight: normal;
     color: white;
     font-size: 2.2em;
     margin-top: 75px;
@@ -366,6 +367,7 @@ body
 }
 .menu-cathegory-title{
     font-family: YesevaOne;
+    font-weight: normal;
     text-align: center;
     color: rgb(204, 153, 0);
     font-size: 35px;
@@ -393,17 +395,20 @@ body
 .dish-name{
     font-size: 21px;
     font-family: YesevaOne;
+    font-weight: normal;
     align-self: center;
     color: rgb(204, 153, 0);
 }
 .dish-price{
     font-size: 21px;
     font-family: YesevaOne;
+    font-weight: normal;
     align-self: center;
     color: rgb(204, 153, 0);
 }
 .dish-description{
     font-family: LatoRegular;
+    font-weight: normal;
     color: rgb(0, 0, 0);
     font-size: 15px;
     margin-top: 12px;
@@ -435,6 +440,7 @@ body
 }
 .reviews-title{
     font-family: YesevaOne;
+    font-weight: normal;
     color: white;
     font-size: 2.2em;
     margin-top: 78px;
