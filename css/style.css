@@ -383,8 +383,21 @@ body
     height: 85px; 
     padding-left: 12px;
     padding-right: 12px;
-    padding-top: 12px;
+    margin-top: 12px;
 }
+.dish-special {
+    position: relative;
+    border: 1px solid #cc9900; }
+    .dish-special::before {
+      content: 'Special';
+      position: absolute;
+      right: 0;
+      transform: translateY(-100%);
+      padding: 2px 13px;
+      background-color: #c89f2d;
+      font-size: 14px;
+      color: #fff; }
+  
 .dish-title{
     height: 40px;
     display: flex;
