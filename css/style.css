@@ -539,34 +539,22 @@ body
 .reservations_info{
     display: flex;
     flex-direction: column; 
-    flex-wrap: nowrap;   
+ /*   flex-wrap: nowrap;  */ 
     background-color: rgba(70, 194, 90, 0.4);
     width: 450px;
     margin: 100px;
     margin-left: -40px;
-    /*padding-right: 500px;*/    
-    /*
-    flex-direction: column;
-    align-items: center;    */
-    text-align: center; 
-  /*  position: relative;*/
-        
+    text-align: center;         
     
 }
 
 .reservations_info img{
-   /* position: absolute;*/
     margin:auto;
     margin-top: 20px;
     margin-bottom: 0px;
 
 }
 .reservations_info h2{
-    /*width: 100%;
-    
-    font-size: 36px;
-    font-weight: normal;      
-    color: #cc9900;*/
     position: relative;
     font-family: YesevaOne;
     margin: 0;
@@ -575,16 +563,7 @@ body
     line-height: 0.9;
     font-weight: normal;
     color: #cc9900;
-    text-align: center; }/*
-  .reservations_info h2::after {
-    content: '';
-    position: absolute;
-    width: 300px;
-    height: 50px;
-    background: url("../source/gold_divider.png");
-    left: 52%;
-    transform: translateX(-50%);
-    bottom: -60px; }*/
+    text-align: center; }
 
     
 
@@ -597,7 +576,65 @@ body
     color: rgb(0, 0, 0);
 }
 
+form {
+    font-family: 'OpenSans', sans-serif; }
 
+.form_wrapper{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.form_reservation{
+    display: flex;
+    flex-direction: row;
+}
+
+.form_column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 47%; }
+
+.reservations_form label{    
+  font-size: 14px;
+  color: #c9a131;
+  text-align: start;
+  font-family: YesevaOne;
+}
+
+.form_field {
+    box-sizing: border-box;    
+    width: 200px;
+    height: 40px; 
+   
+    border: 1px solid #c8c6c6;
+    line-height: normal;
+    font-style: italic;
+    color: #7c7c7c; }
+
+.form_field option {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.2; 
+}
+
+.form_field:focus {
+outline: none;
+border: 1px solid #c9a131; 
+}
+
+.reservations_btn {
+  padding: 8px 60px 10px;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  background-color: #c9a131;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #fff; }
 
 .main-page{
     position: relative;
