@@ -282,6 +282,7 @@ body
 .ingredients-title{
     text-align:center;
     font-family: YesevaOne;
+    font-weight: normal;
     color: white;
     font-size: 2.2em;
     margin-top: 75px;
@@ -336,10 +337,11 @@ body
     color: #ffffff;
     display: flex;}
 .menu-back{
-    height: 800px;
+    height: 815px;
     width: 1170px;
     /*background-color: black;*/
     margin:auto;
+    margin-top:93px;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -347,18 +349,25 @@ body
 .menu-column{
     height: 100%;
     width: 570px;
-    background-color:aqua;
+    /*background-color:aqua;*/
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    justify-content: space-between;}
 .menu-category{
-    background-color:rgb(29, 91, 91); 
+    width: 455px;
+    height: min-content;
+    /*background-color:rgb(29, 91, 91); */
     display:flex;
+    margin:auto;
+    margin-top: 0;
+    margin-bottom: 0;
     flex-direction: column;
     flex-wrap: wrap;
 }
 .menu-cathegory-title{
     font-family: YesevaOne;
+    font-weight: normal;
     text-align: center;
     color: rgb(204, 153, 0);
     font-size: 35px;
@@ -369,6 +378,56 @@ body
 }
 .menu-cathegory-divider{
     margin: auto;
+}
+.menu-dish{
+    height: 85px; 
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+}
+.dish-special {
+    position: relative;
+    border: 1px solid #cc9900; }
+    .dish-special::before {
+      content: 'Special';
+      position: absolute;
+      right: 0;
+      transform: translateY(-100%);
+      padding: 2px 13px;
+      background-color: #c89f2d;
+      font-size: 14px;
+      color: #fff; }
+  
+.dish-title{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.5;
+    border-bottom: 1px solid #cc9900; 
+}
+.dish-name{
+    font-size: 21px;
+    font-family: YesevaOne;
+    font-weight: normal;
+    align-self: center;
+    color: rgb(204, 153, 0);
+}
+.dish-price{
+    font-size: 21px;
+    font-family: YesevaOne;
+    font-weight: normal;
+    align-self: center;
+    color: rgb(204, 153, 0);
+}
+.dish-description{
+    font-family: LatoRegular;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+
 }
 .main-page-reviews{
     margin-left: auto;
@@ -394,6 +453,7 @@ body
 }
 .reviews-title{
     font-family: YesevaOne;
+    font-weight: normal;
     color: white;
     font-size: 2.2em;
     margin-top: 78px;
@@ -448,7 +508,7 @@ body
     background-image: url(../source/pattern3.png);
     background-position: center;
     background-size: cover;
-   /* padding: 100px;
+    /* padding: 100px;
     padding-left: 200px; */
     height: 710px;
     width: 1600px;
@@ -457,30 +517,51 @@ body
     
 }
 
-.imgs{
-    display: flex;
+.reservations_wrapper{
+    height: 710px;
+    width: 1600px;   
+   /* background-color: rgba(167, 0, 0,0.3);       */
+    display: flex;    
+    flex-direction: row;  
+    align-content: space-between;
+   /* padding: 100px;
+    padding-left: 200px; */
     
-    width: 50%;
-    min-width: 570px;
-    margin: 0 15px;
+}
+
+.imgs{       
+    background-color: #cc9900;
+    min-width: 600px;
+    height: 507px;
+    margin: 100px;
+    margin-left: 215px;
 }
 
 
 .reservations_info{
     display: flex;
+    flex-direction: column; 
+ /*   flex-wrap: nowrap;  */ 
+   /* background-color: rgba(70, 194, 90, 0.4);*/
+    width: 450px;
+    margin: 100px;
+    margin-left: -40px;
+    /*padding-right: 500px;*/    
+    /*
     flex-direction: column;
-    width: 50%;
-    
-    padding-right: 500px;
-    height: 600px;
-    width: 500px;
-    /*display: flex;
-    flex-direction: column;*/
-    text-align: center;
-    
-    
+    align-items: center;    */
+    text-align: center; 
+  /*  position: relative;*/
         
     
+}
+
+.reservations_info img{
+   /* position: absolute;*/
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
 }
 .reservations_info h2{
     /*width: 100%;
@@ -490,35 +571,99 @@ body
     color: #cc9900;*/
     position: relative;
     font-family: YesevaOne;
-   margin: 0;
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 0.9;
-  font-weight: normal;
-  color: #cc9900;
-  text-align: center; }
+    margin: 0;
+    margin-bottom: -10px;
+    font-size: 36px;
+    line-height: 0.9;
+    font-weight: normal;
+    color: #cc9900;
+    text-align: center; }/*
   .reservations_info h2::after {
     content: '';
     position: absolute;
     width: 300px;
     height: 50px;
     background: url("../source/gold_divider.png");
-    left: 50%;
+    left: 52%;
     transform: translateX(-50%);
-    bottom: -60px; }
+    bottom: -60px; }*/
 
     
 
 .reservations_info p{
     font-family: LatoRegular;
      width: 100%;  
-     margin-bottom: 30px;   
+     margin-bottom: -5px;   
      line-height: 1.5; 
    /*  padding-bottom: 50px;*/
-    color: rgb(87,87,87);
+    color: rgb(0, 0, 0);
 }
 
+.reservations_info p~p{
+    margin-bottom: 45px; 
+}
 
+form {
+    font-family: 'OpenSans', sans-serif; }
+
+.form_wrapper{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.form_reservation{
+    display: flex;
+    flex-direction: row;
+}
+
+.form_column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 50%; }
+
+.reservations_form label{    
+  font-size: 14px;
+ /* color: #c9a131;*/
+  color: #cc9900;
+  text-align: start;
+  font-family: YesevaOne;
+}
+
+.form_field {
+    box-sizing: border-box;    
+    width: 200px;
+    height: 37px;    
+    border: 1px solid #c8c6c6;
+    margin-bottom: 30px;
+    line-height: normal;
+    font-style: italic;
+    font-size: 16px;
+    color: #7c7c7c; }
+
+.form_field option {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.2; 
+}
+
+.form_field:focus {
+outline: none;
+border: 1px solid #c9a131; 
+}
+
+.reservations_btn {
+  padding: 8px 60px 10px;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  background-color: #c9a131;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #fff; }
 
 .main-page{
     position: relative;
