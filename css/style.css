@@ -628,10 +628,10 @@ form {
     font-family: OpenSans;
     font-size: 18px;
     color: #7c7c7c; }
-    ::-webkit-input-placeholder {
+::-webkit-input-placeholder {
         padding-left: 10px;
         padding-top: 8px;
-     }
+}
 .form_field option {
     font-size: 16px;
     font-style: italic;
@@ -642,6 +642,31 @@ form {
 .form_field:focus {
 outline: none;
 border: 1px solid #c9a131; 
+}
+
+.date_field{
+    display: flex;
+    flex-direction: row;
+}
+
+.date_field i{
+    width: 5px;
+    height: 5px;
+    color: #000000;
+    opacity: 0.6;
+    margin: auto;
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+  ::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    cursor: pointer;
+    margin: auto;
+    width: 20px;
+    padding-left: 50px;
+    padding-top: 0px;
+    z-index: 1;
 }
 
 .reservations_btn {
@@ -660,6 +685,11 @@ border: 1px solid #c9a131;
     padding: 10px 66px 4px 66px;
     border: 1px solid rgb(211, 204, 204);
     text-align: center;
+  }
+
+  option{
+    padding-left: 50px;
+    color: #c89f2d;
   }
 
 .main-page{
