@@ -518,7 +518,7 @@ body
 .reservations_wrapper{
     height: 710px;
     width: 1600px;   
-    background-color: rgba(167, 0, 0,0.3);       
+   /* background-color: rgba(167, 0, 0,0.3);       */
     display: flex;    
     flex-direction: row;  
     align-content: space-between;
@@ -540,7 +540,7 @@ body
     display: flex;
     flex-direction: column; 
  /*   flex-wrap: nowrap;  */ 
-    background-color: rgba(70, 194, 90, 0.4);
+   /* background-color: rgba(70, 194, 90, 0.4);*/
     width: 450px;
     margin: 100px;
     margin-left: -40px;
@@ -570,10 +570,14 @@ body
 .reservations_info p{
     font-family: LatoRegular;
      width: 100%;  
-     margin-bottom: 0px;   
+     margin-bottom: -5px;   
      line-height: 1.5; 
    /*  padding-bottom: 50px;*/
     color: rgb(0, 0, 0);
+}
+
+.reservations_info p~p{
+    margin-bottom: 45px; 
 }
 
 form {
@@ -596,11 +600,12 @@ form {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    width: 47%; }
+    width: 50%; }
 
 .reservations_form label{    
   font-size: 14px;
-  color: #c9a131;
+ /* color: #c9a131;*/
+  color: #cc9900;
   text-align: start;
   font-family: YesevaOne;
 }
@@ -608,11 +613,12 @@ form {
 .form_field {
     box-sizing: border-box;    
     width: 200px;
-    height: 40px; 
-   
+    height: 37px;    
     border: 1px solid #c8c6c6;
+    margin-bottom: 30px;
     line-height: normal;
     font-style: italic;
+    font-size: 16px;
     color: #7c7c7c; }
 
 .form_field option {
