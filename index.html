@@ -294,7 +294,8 @@
                     </div>
                   </div>
     
-                <button class="reservations_btn" >Book now!</button>
+                <button id="reserve-button"class="reservations_btn">Book now!</button>
+
                 </div>
               </form> 
             </div>
@@ -303,7 +304,18 @@
         
         </div>
       </section>
-
+      
+      <!-- Модальное окно -->
+      <div class="modal " id="modal-1">
+        <div class="modal__content">
+          <button class="modal__close-button"><img src="source/close.svg" width="18" alt=""></button>
+          <h1 class="modal__title">The table has been successfully booked!</h1>
+          <img class="modal-divider"src="source/gold_divider.png">
+        </div>
+      </div>
     </main>
     <footer class="footer-page"></footer>
+    
+    <script src="./js/scripts.js"></script>
+ 
   </body>
