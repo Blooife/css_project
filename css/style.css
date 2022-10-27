@@ -448,10 +448,10 @@ body
     background-image: url(../source/pattern3.png);
     background-position: center;
     background-size: cover;
-    padding: 100px;
-    padding-left: 200px;
+   /* padding: 100px;
+    padding-left: 200px; */
     height: 710px;
-    width: 1600px;       
+    width: 1600px;
     display: flex;    
     color: #ffffff; 
     
@@ -523,4 +523,13 @@ body
 .main-page{
     position: relative;
     z-index: 1;
+}
+.footer-page{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../source/footer-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    width: 1600px;
 }
