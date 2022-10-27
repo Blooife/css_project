@@ -260,12 +260,13 @@
                 out! Perfect materials and freshly baked food.</p>           
               </div>
            </div>
+
            <form class="reservations_form  form">
 
             <div class="form_reservation">
               <div class="form_column">
                 <label class="form_label" for="name">Name</label>
-                <input class="form_field" id="name" type="text" placeholder="your name *" required>
+                <input class="form_field" id="name" type="text" placeholder="your name *">
 
                 <label class="form_label" for="date">Date</label>
                 <input class="form_field" id="date" type="date" required>
@@ -275,9 +276,9 @@
                 <label class="form_label" for="email">Email</label>
                 <input class="form_field" id="email" type="email" placeholder="your email *" required>
 
-                <label class="form_label" for="number">Party number</label>
-                <select class="form_field" id="number">
-                  <option value="0">table number</option>
+                <label class="form_label" for="number">Table number</label>
+                <select id="number" required >
+                  <option value="" disabled selected>table number</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
