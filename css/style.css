@@ -282,6 +282,7 @@ body
 .ingredients-title{
     text-align:center;
     font-family: YesevaOne;
+    font-weight: normal;
     color: white;
     font-size: 2.2em;
     margin-top: 75px;
@@ -336,10 +337,11 @@ body
     color: #ffffff;
     display: flex;}
 .menu-back{
-    height: 800px;
+    height: 815px;
     width: 1170px;
     /*background-color: black;*/
     margin:auto;
+    margin-top:93px;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -347,18 +349,25 @@ body
 .menu-column{
     height: 100%;
     width: 570px;
-    background-color:aqua;
+    /*background-color:aqua;*/
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    justify-content: space-between;}
 .menu-category{
-    background-color:rgb(29, 91, 91); 
+    width: 455px;
+    height: min-content;
+    /*background-color:rgb(29, 91, 91); */
     display:flex;
+    margin:auto;
+    margin-top: 0;
+    margin-bottom: 0;
     flex-direction: column;
     flex-wrap: wrap;
 }
 .menu-cathegory-title{
     font-family: YesevaOne;
+    font-weight: normal;
     text-align: center;
     color: rgb(204, 153, 0);
     font-size: 35px;
@@ -369,6 +378,56 @@ body
 }
 .menu-cathegory-divider{
     margin: auto;
+}
+.menu-dish{
+    height: 85px; 
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 12px;
+}
+.dish-special {
+    position: relative;
+    border: 1px solid #cc9900; }
+    .dish-special::before {
+      content: 'Special';
+      position: absolute;
+      right: 0;
+      transform: translateY(-100%);
+      padding: 2px 13px;
+      background-color: #c89f2d;
+      font-size: 14px;
+      color: #fff; }
+  
+.dish-title{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.5;
+    border-bottom: 1px solid #cc9900; 
+}
+.dish-name{
+    font-size: 21px;
+    font-family: YesevaOne;
+    font-weight: normal;
+    align-self: center;
+    color: rgb(204, 153, 0);
+}
+.dish-price{
+    font-size: 21px;
+    font-family: YesevaOne;
+    font-weight: normal;
+    align-self: center;
+    color: rgb(204, 153, 0);
+}
+.dish-description{
+    font-family: LatoRegular;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+
 }
 .main-page-reviews{
     margin-left: auto;
@@ -394,6 +453,7 @@ body
 }
 .reviews-title{
     font-family: YesevaOne;
+    font-weight: normal;
     color: white;
     font-size: 2.2em;
     margin-top: 78px;
