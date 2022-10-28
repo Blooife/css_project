@@ -14,6 +14,16 @@
             src: url("../fonts/lato-regular.ttf") format("TrueType");
             font-style: normal;
             font-weight: normal; }
+            @font-face {
+                font-family: "OpenSans";
+                src: url("../fonts/open-sans.ttf") format("TrueType");
+                font-style: normal;
+                font-weight: normal; }
+                @font-face {
+                    font-family: "OpenSansBold";
+                    src: url("../fonts/open-sans-bold.ttf") format("TrueType");
+                    font-style: normal;
+                    font-weight: normal; }
 .nav{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent); */
     background-image: url(../source/header-grad.png);
@@ -704,6 +714,68 @@ border: 1px solid #c9a131;
     background-size: cover;
     height: 320px;
     width: 1600px;
+    display: flex;
+    flex-direction: row;
+}
+#info-footer{
+    height: 218px;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-about{
+    width: 370px;
+    margin-left: 215px;
+}
+.footer-img{
+    width: 280px;
+    margin-top: -35px;
+}
+.footer-caption{
+    font-family: YesevaOne;
+    color: #fefefe;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.footer-text{
+    font-family: OpenSans;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -14px;
+    line-height: 24px;
+    word-spacing: 1px;
+}
+.footer-worktime{
+    width: 230px;
+    margin-left: 100px;
+}
+.footer-location{
+    width: 230px;
+    margin-left: 170px;
+}
+.footer-icons-pay{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    width: 120px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.footer-icons-socials{
+    display: flex;
+    flex-direction: row;
+    width: 92px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.socials-link2{
+    text-align: none;
+    color: #ffffff;
+}
+.socials-link2:hover{
+    color: #cc9900;
 }
 .modal {
     position: fixed;
