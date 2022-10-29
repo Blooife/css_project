@@ -259,17 +259,17 @@
                 <p>Delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us
                 out! Perfect materials and freshly baked food.</p>           
               
-              <form class="reservations_form  form">
+              <form class="reservations_form form" id="reservForm" oninput="validate_form()">
                 <div class = "form_wrapper">
                   <div class="form_reservation">
                     <div class="form_column">
                       <label class="form_label" for="name">Name</label>
-                      <input class="form_field" id="name" type="text" placeholder="your name*" required>
+                      <input class="form_field" id="username" type="text" placeholder="your name*" required>
       
                       <label class="form_label" for="date">Date</label>
                       <div class="date_field">
-                      <input class="form_field" id="date" type="text" required placeholder="date*" onfocus="(this.type = 'date')" >
-                      <i class="fa fa-calendar fa-0.05x" ></i>
+                      <input class="form_field" id="date" type="text" placeholder="date*" onfocus="(this.type = 'date')" required >
+                      <i class="fa fa-calendar fa-0.005x" ></i>
                       </div>
                       
                     </div>
@@ -279,7 +279,7 @@
                       <input class="form_field" id="email" type="email" placeholder="your email*" required>
       
                       <label class="form_label" for="number">Party number</label>
-                      <select class="form_field" id="number" required >
+                      <select class="form_field" id="number" required>
                         <option value="" disabled selected>party number</option>                      
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -294,7 +294,7 @@
                     </div>
                   </div>
     
-                <button id="reserve-button"class="reservations_btn">Book now!</button>
+                <button  class="reservations_btn" id="btn" type="button">Book now!</button>
 
                 </div>
               </form> 
@@ -308,12 +308,13 @@
       <!-- Модальное окно -->
       <div class="modal " id="modal-1">
         <div class="modal__content">
-          <button class="modal__close-button"><img src="source/close.svg" width="18" alt=""></button>
+          <button class="modal__close-button"id="modal-close"><img src="source/close.svg" width="18" alt=""></button>
           <h1 class="modal__title">The table has been successfully booked!</h1>
           <img class="modal-divider"src="source/gold_divider.png">
         </div>
       </div>
     </main>
+
     <footer class="footer-page">
       <div class="footer-about" id="info-footer">
         <p class="footer-caption">About Us</p>
