@@ -247,8 +247,9 @@ body
         height: 70px;
         background: url(..//source/gold_divider.png);
         background-repeat: no-repeat;
-        background-size: 100%;       
-        bottom: -170%; }
+        background-size: 100%;    
+        left:13%;  
+        bottom: -190%; }
 .about_text {
     font-family: LatoRegular;
      width: 100%;    
