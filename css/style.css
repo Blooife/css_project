@@ -290,7 +290,7 @@ body
     background-position: center;
     background-size: cover;
     height: 557px;
-    flex-basis: 570px;
+    max-width: 570px;
     margin: auto;
     margin-left: 51%;
     display: flex;
@@ -306,11 +306,7 @@ body
     margin-bottom: 0px;
     letter-spacing: 0.8px;}
 .ingredients-divider{
-    background-image: url(../source/Divider.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 60px;
+    height: 100%;
     width: 100%;
     margin: auto;
     margin-top: 0px;
@@ -321,7 +317,7 @@ body
     font-family: LatoRegular;
     color: white;
     font-size: 15px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 13%;    
     margin-right: 13%;
     margin-bottom: 0;
