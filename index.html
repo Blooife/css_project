@@ -81,20 +81,22 @@
 
         <section class="main-page-about" id = "about">
           <div class="about-pattern">
-              <div class="about_info">
-                <h2 class="about_title">Just the right food</h2>
-                <p class="about_text">
-                  If you’ve been to one of our restaurants, you’ve seen – and tasted
-                  – what keeps our customers coming back for more. Perfect materials
-                  and freshly baked food, delicious Lambda cakes, muffins, and
-                  gourmet coffees make us hard to resist! Stop in today and check us
-                  out!
-                </p>
-                <img class="about_cook" src="source/cook.png" alt="image cook" width="219" height="221">
-              </div> 
-             <!-- <img class="about_dish"  src="source/dish.png" alt="image plate">-->
-             </div>           
-          </div>        
+            <div class="about-wrapper">
+                <div class="about_info">
+                  <h2 class="about_title">Just the right food</h2>
+                  <img src="source/gold_divider.png" alt="gold divider" width="">
+                  <p class="about_text">
+                    If you’ve been to one of our restaurants, you’ve seen – and tasted
+                    – what keeps our customers coming back for more. Perfect materials
+                    and freshly baked food, delicious Lambda cakes, muffins, and
+                    gourmet coffees make us hard to resist! Stop in today and check us
+                    out!
+                  </p>
+                  <img class="about_cook" src="source/cook.png" alt="image cook" width="219" height="221">
+                </div> 
+                <img src="source/dish.png" class="dish">
+            </div>
+         </div>             
         </section>
 
       <!-- INGREDIENTS -->
@@ -267,11 +269,9 @@
                       <label class="form_label" for="name">Name</label>
                       <input class="form_field" id="username" type="text" placeholder="your name*" required>
       
-                      <label class="form_label" for="date">Date</label>
-                      <div class="date_field">
+                      <label class="form_label" for="date">Date</label>                      
                       <input class="form_field" id="date" type="text" placeholder="date*" onfocus="(this.type = 'date')" required >
-                      <i class="fa fa-calendar fa-0.005x" ></i>
-                      </div>
+                      <i class="fa fa-calendar fa-0.005x" ></i>                     
                       
                     </div>
       
@@ -290,18 +290,14 @@
                         <option value="6">6</option>
                         <option value="7">7</option>
                         <option value="8">8</option>
-                      </select>
-                      
+                      </select>                      
                     </div>
-                  </div>
-    
+                  </div>    
                 <button  class="reservations_btn" id="btn" type="button">Book now!</button>
-
                 </div>
               </form> 
             </div>
-           </div>
-           
+           </div>         
         
         </div>
       </section>

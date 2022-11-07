@@ -212,58 +212,65 @@ body
 }
 
 .about-pattern{
-    background-image: url(../source/dish.png),url(../source/pattern.png);
-    background-repeat: no-repeat,repeat;
-    background-position:  right 25% bottom 45%, center;
-    background-size: 39%, cover;
+    background-image: url(../source/pattern.png);
+    background-repeat: repeat;
+    background-position:  center;
+    background-size:  cover;
     height: 730px;    
-    box-sizing: border-box;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    padding-left: 185px;
+    box-sizing: border-box;    
     color: #ffffff;
+}
+.about-wrapper{
+    display: flex;
+    flex-direction: row;
 }
 .about_info {
     max-width: 430px;
+    margin: auto;
     display: flex;
-    flex-direction: column;   
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: column;  
+    margin-top: 100px; 
+    margin-left: 285px;
     text-align: center;
-    align-items: center; }
+    align-items: center; 
+}
 
-.about_title {
-    position: relative; 
-    margin: 0;
-    margin-bottom: 50px;
+.about_title {  
+    margin: auto;    
     font-size: 36px;
     font-weight: normal;
     font-family: YesevaOne;
-    color: #cc9900; }
-.about_title::before {
-        content: '';
-        position: absolute;
-        width: 250px;
-        height: 70px;
-        background: url(..//source/gold_divider.png);
-        background-repeat: no-repeat;
-        background-size: 100%;    
-        left:13%;  
-        bottom: -190%; }
+    color: #cc9900;     
+}
+
+.about_info img{
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .about_text {
     font-family: LatoRegular;
-     width: 100%;    
-     opacity: 0.8;    
-     line-height: 1.5; 
-     color:rgb(10, 10, 10);}    
-
-     
+    width: 100%;    
+    opacity: 0.8;    
+    line-height: 1.5; 
+    color:rgb(10, 10, 10);
+    margin: auto;
+    margin-top: 20px;
+}      
       
 .about_cook {
-        margin-top: 32px;
-        margin-bottom: 15px;
-        margin-left: 70px; }
+    margin: auto;
+    padding-left: 55px;
+    padding-top: 50px;
+    }   
     
+.dish{
+    margin: auto;
+    margin-top: 55px;
+    margin-right: 240px;   
+}
+
+
 
 
 .main-page-ingredients{
@@ -514,28 +521,23 @@ body
     width: 1600px;
     color: #ffffff; 
 }
+
 .reservations-pattern{
     background-image: url(../source/pattern3.png);
     background-position: center;
     background-size: cover;
-    /* padding: 100px;
-    padding-left: 200px; */
     height: 710px;
     width: 1600px;
     display: flex;    
-    color: #ffffff; 
-    
+    color: #ffffff;     
 }
 
 .reservations_wrapper{
     height: 710px;
     width: 1600px;   
-   /* background-color: rgba(167, 0, 0,0.3);       */
     display: flex;    
     flex-direction: row;  
     align-content: space-between;
-   /* padding: 100px;
-    padding-left: 200px; */
     
 }
 
@@ -553,19 +555,16 @@ body
     width: 450px;
     margin: 100px;
     margin-left: -40px;
-    text-align: center; 
-  /*  position: relative;*/
-        
+    text-align: center;        
     
 }
 
 .reservations_info img{
-   /* position: absolute;*/
     margin:auto;
     margin-top: 20px;
     margin-bottom: 0px;
-
 }
+
 .reservations_info h2{
     position: relative;
     font-family: YesevaOne;
@@ -584,7 +583,6 @@ body
      width: 100%;  
      margin-bottom: -5px;   
      line-height: 1.5; 
-   /*  padding-bottom: 50px;*/
     color: rgb(0, 0, 0);
 }
 
@@ -621,7 +619,6 @@ form {
 .reservations_form label{    
   font-size: 14px;
   margin-bottom: 7px;
- /* color: #c9a131;*/
   color: #cc9900;
   text-align: start;
   font-family: YesevaOne;
@@ -642,6 +639,7 @@ form {
         padding-left: 10px;
         padding-top: 8px;
 }
+
 .form_field option {
     font-size: 16px;
     font-style: italic;
@@ -693,15 +691,6 @@ border: 1px solid #c9a131;
   #btn:disabled{
     background-color: rgb(197, 191, 191);
     }
- /*
- #btn:disabled:hover{
-    background-color: rgb(197, 191, 191);
-    }
- #btn:hover{
-    padding: 10px 66px 4px 66px;
-    border: 1px solid rgb(211, 204, 204);
-    text-align: center;
-  }*/
 
   option{
     padding-left: 50px;
