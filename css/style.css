@@ -323,18 +323,12 @@ body
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
     width: 1600px;
     height: 990px;
     color: #ffffff; 
 }
-/*.menu-pattern{
-    /*background-image: url(../source/pattern2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    color: #ffffff;
-    display: flex;}*/
+
 .menu-back{
     height: 815px;
     width: 1170px;
