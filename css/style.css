@@ -204,22 +204,13 @@ body
 .main-page-about{
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../source/background.png);
+    background-image: url(../source/pattern.png), url(../source/background.png);
     background-position: center;
     width: 1600px;
     height: 710px;
     color: #ffffff;
 }
 
-.about-pattern{
-    background-image: url(../source/pattern.png);
-    background-repeat: repeat;
-    background-position:  center;
-    background-size:  cover;
-    height: 730px;    
-    box-sizing: border-box;    
-    color: #ffffff;
-}
 .about-wrapper{
     display: flex;
     flex-direction: row;
@@ -328,21 +319,22 @@ body
 .main-page-menu{
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../source/background2.png);
+    background-image: url(../source/pattern2.png),url(../source/background2.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 1600px;
     height: 990px;
     color: #ffffff; 
 }
-.menu-pattern{
-    background-image: url(../source/pattern2.png);
+/*.menu-pattern{
+    /*background-image: url(../source/pattern2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
     color: #ffffff;
-    display: flex;}
+    display: flex;}*/
 .menu-back{
     height: 815px;
     width: 1170px;
@@ -508,7 +500,7 @@ body
 .main-page-reservations{
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../source/background3.png);
+    background-image: url(../source/pattern3.png), url(../source/background3.png);
     background-position: center;
     background-size: cover;
     height: 710px;
@@ -516,15 +508,6 @@ body
     color: #ffffff; 
 }
 
-.reservations-pattern{
-    background-image: url(../source/pattern3.png);
-    background-position: center;
-    background-size: cover;
-    height: 710px;
-    width: 1600px;
-    display: flex;    
-    color: #ffffff;     
-}
 
 .reservations_wrapper{
     height: 710px;
