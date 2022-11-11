@@ -570,13 +570,11 @@ body
 }
 
 form {
-    font-family: 'OpenSans', sans-serif; }
-
-.form_wrapper{
+    font-family: 'OpenSans', sans-serif; 
     display: flex;
     margin: auto;
     flex-direction: column;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .form_reservation{
@@ -587,11 +585,11 @@ form {
 .form_column {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 0px;
     width: 50%; }
 
 .form_column~.form_column{
-    margin-left: 15px;
+    margin-left: 30px;
 }
 .reservations_form label{    
   font-size: 14px;
@@ -612,6 +610,7 @@ form {
     font-family: OpenSans;
     font-size: 18px;
     color: #7c7c7c; }
+
 ::-webkit-input-placeholder {
         padding-left: 10px;
         padding-top: 8px;
@@ -629,21 +628,6 @@ outline: none;
 border: 1px solid #c9a131; 
 }
 
-.date_field{
-    display: flex;
-    flex-direction: row;
-}
-
-.date_field i{
-    width: 5px;
-    height: 5px;
-    color: #000000;
-    opacity: 0.6;
-    margin: auto;
-    margin-left: -25px;
-    margin-top: 10px;
-}
-
   ::-webkit-calendar-picker-indicator {
     opacity: 0;
     cursor: pointer;
@@ -655,7 +639,7 @@ border: 1px solid #c9a131;
 }
 
 #btn {
-  padding: 7px 63px 7px 63px;
+  padding: 8px 63px 8px 63px;
   margin-top: 10px;
   align-self: center;
   text-align: center;
