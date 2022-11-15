@@ -308,10 +308,10 @@ body
 }
 
 .menu-back{
-    height: 815px;
+    height: 825px;
     width: 1170px;
     margin:auto;
-    margin-top:93px;
+    margin-top: 85px;   
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -328,8 +328,9 @@ body
     height: min-content;
     display:flex;
     margin:auto;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0;
+    padding-left: 0;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -348,7 +349,7 @@ body
     margin: auto;
 }
 .menu-dish{
-    height: 85px; 
+    height: 83px; 
     padding-left: 12px;
     padding-right: 12px;
     margin-top: 15px;
@@ -397,10 +398,8 @@ body
     font-weight: normal;
     color: rgb(0, 0, 0);
     font-size: 15px;
-    margin-top: 12px;
-    letter-spacing: 1px;
-    line-height: 1.4;
-
+    margin-top: 10px;
+    letter-spacing:0.5px;
 }
 .main-page-reviews{
     margin-left: auto;
