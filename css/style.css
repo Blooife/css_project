@@ -246,15 +246,22 @@ body
     display: flex;
     color: #ffffff;
 }
+.ingredients-container{
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    margin-right:0;
+}
 .ingredients-pattern{
     background-image: url(../source/BgText1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 557px;
-    max-width: 570px;
+    width: 570px;
     margin: auto;
-    margin-left: 51%;
+
     display: flex;
     flex-direction:column;
     color: #ffffff;}
