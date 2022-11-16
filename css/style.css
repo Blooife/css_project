@@ -234,7 +234,7 @@ body
     top: 30px;
     left: 35px;
     
-    }   
+}   
     
 .dish{
     width: 620px;
@@ -243,9 +243,6 @@ body
     left: 25px;
     top:-30px
 }
-
-
-
 
 .main-page-ingredients{
     margin-left: auto;
@@ -492,34 +489,36 @@ body
 
 
 .reservations_wrapper{
-    height: 710px;
-    width: 1600px;   
+    height: 600px;
+    width: 1200px; 
+    margin: auto;      
     display: flex;    
     flex-direction: row;  
-    align-content: space-between;   
-    padding-left: 15px; 
+    justify-content: center;
+    
 }
 
-.imgs{     
+/*.imgs{     
     position: relative;
     left: 100px;   
     max-width: 600px;
     height: 507px;
     margin: 100px;
+}*/
+.reserv_img{
+    margin-top: 100px;
+    position: relative;
+    right: 75px;
 }
-
 
 .reservations_info{
     display: flex;
-    flex-direction: column; 
-    margin: auto;
-   /* position: relative;
-    right: 100px;*/
+    flex-direction: column;     
     width: 450px;
     margin-top: 100px;
-    margin-left: 90px;
     text-align: center;        
-    
+    position: relative;
+    left: 15px;
 }
 
 .reservations_info img{
@@ -529,7 +528,6 @@ body
 }
 
 .reservations_info h2{
-    position: relative;
     font-family: YesevaOne;
     margin: 0;
     margin-bottom: -10px;
