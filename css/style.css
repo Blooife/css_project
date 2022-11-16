@@ -180,56 +180,68 @@ body
     width: 1600px;
     height: 710px;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
 .about-wrapper{
+    width: 1100px;
+    max-height: 500px;    
     display: flex;
     flex-direction: row;
-}
-.about_info {
-    max-width: 430px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;  
-    margin-top: 100px; 
-    margin-left: 285px;
-    text-align: center;
-    align-items: center; 
+    justify-content: center;
+    margin-top: 85px;
+    margin-left: 20px;
 }
 
-.about_title {  
-    margin: auto;    
-    font-size: 36px;
-    font-weight: normal;
-    font-family: YesevaOne;
-    color: #cc9900;     
+.about_info {    
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .about_info img{
     margin: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: -10px;
+
 }
+
+.about_title {     
+    font-size: 36px;
+    font-weight: normal;
+    font-family: YesevaOne;
+    color: #cc9900;     
+    margin: auto;
+    
+}
+
 .about_text {
     font-family: LatoRegular;
-    width: 100%;    
+    width: 100%;   
     opacity: 0.8;    
     line-height: 1.5; 
     color:rgb(10, 10, 10);
-    margin: auto;
-    margin-top: 20px;
+    position: relative;
+    bottom: 15px;
+   
 }      
       
-.about_cook {
-    margin: auto;
-    padding-left: 55px;
-    padding-top: 50px;
+.about_cook {    
+    position: relative;
+    top: 30px;
+    left: 35px;
+    
     }   
     
 .dish{
-    margin: auto;
-    margin-top: 55px;
-    margin-right: 240px;   
+    width: 620px;
+    height: 620px;
+    position: relative;
+    left: 25px;
+    top:-30px
 }
 
 
@@ -484,24 +496,28 @@ body
     width: 1600px;   
     display: flex;    
     flex-direction: row;  
-    align-content: space-between;
-    
+    align-content: space-between;   
+    padding-left: 15px; 
 }
 
-.imgs{       
-    min-width: 600px;
+.imgs{     
+    position: relative;
+    left: 100px;   
+    max-width: 600px;
     height: 507px;
     margin: 100px;
-    margin-left: 215px;
 }
 
 
 .reservations_info{
     display: flex;
     flex-direction: column; 
+    margin: auto;
+   /* position: relative;
+    right: 100px;*/
     width: 450px;
-    margin: 100px;
-    margin-left: -40px;
+    margin-top: 100px;
+    margin-left: 90px;
     text-align: center;        
     
 }
