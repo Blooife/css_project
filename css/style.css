@@ -41,8 +41,8 @@ header {
     color: #f0f0f0;
     font-size: 36px;
     text-align: center;
-    margin-left: 11.2%;
-    margin-right: 227px;
+    margin-right: -35px; 
+    margin-left: 25px;
     margin-bottom: -8px;
 }
                       
@@ -51,11 +51,18 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     height: 100%;
     background-image: url(../source/header-grad.png); 
 }
 .nav{
-    height: 100%;
+    height: 110px;
+    width: 825px;
+     margin-left: -30px;  
+     margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }           
 .nav-links {
     height: 81px;
@@ -90,12 +97,12 @@ header {
 }
                       
 .socials {
+    height: 70px;
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
     justify-content: space-between;
     width: 83px;
-    margin-left: 8px;
-    margin-bottom: -10px;
 }
                       
 .socials > a {
@@ -112,18 +119,19 @@ body
 .main-page-home{
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../source/Bg.png);
+    background-image: url(../source/Bg.png); 
     width: 1600px;
     background-position: center;
     height: 750px;
     color: #ffffff;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-color: #7c7c7c;
 }
 .text-home{
-    margin-top: 213px;
     width: 970px;
     font-family: YesevaOne;
     color: f0efef;
@@ -131,17 +139,15 @@ body
     letter-spacing: 2px;
     line-height: 120px;
     font-weight: normal;
+    height: 150px;
 }
-.divider-home{
-    margin-top: -85px;
-} 
 .buttons-home{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 78px;
     width: 570;
-    margin-top: -5px;
+    margin-bottom: -10px;
 }
 .button-book{
     background-color: rgba(0, 0, 0, 0.3);
@@ -655,11 +661,11 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
 }
 footer>div{
     height: 218px;
-    margin-top: 52px;
     display: flex;
     flex-direction: column;
     align-items: center;
